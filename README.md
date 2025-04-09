@@ -5,9 +5,7 @@ Official [UProc](https://uproc.io) [Model Context Protocol (MCP)](https://github
 ## Account setup
 
 1. Make sure you have an account on [uproc.io](https://uproc.io) (new users get free credit for testing, and pay as you go options are available)
-2. Get your API key from the [user settings page](https://uproc.io/cp/setting/users)
-3. Create a Web Unlocker proxy zone called `mcp-unlocker` in your [control panel](https://brightdata.com/cp/zones)
-     - You can override this zone in your MCP server with the env variable `WEB_UNLOCKER_ZONE`
+2. Get your API key from the [user settings page](https://app.uproc.io/#/settings/integration)
 
 ## Quickstart with Claude Desktop
 
@@ -19,10 +17,9 @@ Official [UProc](https://uproc.io) [Model Context Protocol (MCP)](https://github
   "mcpServers": {
     "UProc": {
       "command": "npx",
-      "args": ["@uprocsaas/mcp"],
+      "args": ["-y @uprocsaas/mcp"],
       "env": {
         "API_TOKEN": "<insert-your-api-token-here>",
-        "WEB_UNLOCKER_ZONE": "<optional if you want to override the default mcp-unlocker zone name>"
       }
     }
   }
@@ -38,11 +35,7 @@ To use this MCP server with other agent types, you should adapt the following to
 ## Usage
 
 Some example queries that this MCP server will be able to help with:
-- "Google some movies that are releasing soon in <area>"
-- "What's tesla's market cap?"
-- "What's the wikipedia article of the day?"
-- "What's the 7d weather forecast in <location>?"
-- "Of the 3 highest paid tech CEOs, how long has their career been?"
+
 
 ## Troubleshooting
 
