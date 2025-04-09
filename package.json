@@ -1,0 +1,26 @@
+{
+  "name": "@uprocsaas/mcp",
+  "version": "0.0.1",
+  "description": "An MCP interface into the uProc toolset",
+  "type": "module",
+  "bin": {
+    "@brightdata/mcp": "./server.js"
+  },
+  "keywords": [
+    "mcp",
+    "uproc"
+  ],
+  "author": "uProc",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4",
+    "zod": "^3.24.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "server.js"
+  ]
+}
