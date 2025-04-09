@@ -1,5 +1,5 @@
 {
-  "name": "@uprocsaas/mcp",
+  "name": "@uproc-io/mcp",
   "version": "0.0.1",
   "description": "An MCP interface into the uProc toolset",
   "type": "module",
