@@ -17,7 +17,7 @@ Official [UProc](https://uproc.io) [Model Context Protocol (MCP)](https://github
   "mcpServers": {
     "UProc": {
       "command": "npx",
-      "args": ["-y @uprocsaas/mcp"],
+      "args": ["-y @uproc-io/mcp"],
       "env": {
         "API_TOKEN": "<insert-your-api-token-here>",
       }
